@@ -189,6 +189,11 @@ https://angel-rs.github.io/css-color-filter-generator
   color: color-mix(in srgb, var(--accent-color) 60%, transparent);
 }
 
+/* Target table headers for pen classes */
+:is(.pen-white, .pen-blue, .pen-red, .pen-green, .pen-black, .pen-gray, .pen-purple) th {
+  color: var(--accent-color);
+}
+
 /* Code Blocks */
 :is(.page-white, .page-manila, .page-blueprint) :is(code,
 .HyperMD-codeblock, .cm-inline-code) {
